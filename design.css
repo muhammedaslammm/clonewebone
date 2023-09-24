@@ -1,0 +1,396 @@
+*{
+    box-sizing: border-box;
+}
+body,p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.section1{
+    display: flex;
+    padding:16px;  
+    font-size: 13px;  
+}
+.section1 a{
+    text-decoration: none;
+    color: grey;
+}
+
+.headerlogo img{
+    width:108px;
+    
+    
+}
+.headerlogo{
+    width:14%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 28px;
+}
+.headerMidleft a{
+    margin-right: 18px;
+}
+.headerMidleft{
+    width:43%;
+    display: flex;
+    justify-content: flex-start;
+    display: block;    
+}
+.headerMidleft a:hover{
+    text-decoration: 1px underline black;
+
+}
+.headerMidright a{
+    margin-right:18px;
+    padding-left:20px;
+    
+    
+}
+.headerMidright a:hover{
+    text-decoration: 1px underline black;
+}
+.headerMidright{
+    width:43%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left:209px;
+    
+}
+
+
+/* header ends */
+.main-container{
+    width: 100%;
+    height:480px;
+    background-image: url(microsoft-photos/body1.jpeg);
+    display: flex;
+    border:1px solid red;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.left-side{
+    width:700px;
+    margin-left: 195px;
+    margin-top: -15px;
+    
+}
+.left-side .heading{
+    font-size:35px ;
+    margin-bottom: 0px;
+    font-weight:500;
+}
+.left-side button{
+    background-color: #0067b8;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding:10px 15px;
+    border-radius: 2px;
+    
+}
+.left-side p{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    
+}
+.section2{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    word-spacing: 20px;
+}
+.section2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;    
+}
+
+/* section3 */
+.section3{
+    margin-top: 80px;
+    margin-bottom: 70px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.middleContent{
+    width:55%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.icons{
+    font-size: 40px;
+}
+.iconPack{
+    text-align: center;
+}
+.iconPack a{
+    color:#0067b8;
+    font-weight: 600;
+}
+
+/* section4 */
+
+.section4{
+    display: flex;
+    justify-content: space-evenly;
+    
+    height:450px;
+    margin-bottom: 50px;
+
+}
+.content img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.photo-container{
+    width:350px
+}
+.photo-container a{
+    text-decoration: none;
+    font-weight: 600;
+    color:#0067b8;
+}
+.photo-container a:hover{
+    text-decoration: underline;
+    
+}
+
+.photo-container .designedlink{
+    margin-top: 24px;
+}
+/* section 5 start */
+
+.section5{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.secFive-content{
+    
+    width:90%;
+    height:500px;
+    
+    
+}
+.secFive-content .image{
+    width:100%;
+    height:100%;
+    position: relative;
+    
+    
+    
+   
+}
+.image img{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    
+    
+    
+}
+
+.bigpic-Text{
+    position: absolute;
+    right:108px;
+    top:134px;
+    width:420px;
+}
+
+.bigpic-Text .button{
+    background-color: #ffb900;
+    width: 60px;
+    color: black;
+    font-weight: 500;
+    text-align: center;
+    padding:5px 10px;
+    margin: 0;
+
+}
+.bigpic-Text .sec5-head{
+    font-size: 2.3125rem;
+    margin: 0;
+    margin-bottom: 1.25rem;
+    font-weight: 500;
+    color: white;
+}
+
+.bigpic-Text .para{
+    color: white;
+    font-weight: 400;
+
+}
+.bigpic-Text button{
+    width:130px;
+    background-color: #0067b8;
+    border: none;
+    padding:10px;
+    color: white;
+    font-weight: bold;
+}
+/* section 5 end */
+
+/* section 6 starts */
+
+.newspack{
+    width:350px;
+    height:200px;
+}
+
+.pack img{
+    width:100%;
+    height:100%;
+    
+}
+.section6{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    height:400px;
+    margin-bottom: 100px;
+    
+}
+.newspack .designedlink{
+    margin-top: 24px;  
+}
+.designedlink a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #0067b8;;
+}
+.designedlink a:hover{
+    text-decoration: underline;
+}
+
+.newspack h3{
+    font-weight: 600;
+    font-size: 29px;
+}
+/* section 6 ends */
+
+
+/* /last logo */
+.logoSectiondown{
+    display: flex;
+    
+    margin-bottom: 60px;
+}
+.logoSectiondown a{
+    color:black;
+    margin-left: 10px;;
+}
+
+
+.leftContent{
+    width:50%;
+    padding-left: 83px;
+}
+.rightContent{
+    width:50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+.rightContent button{
+    border:none;
+    padding:10px 13px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #c4c3c3;;
+
+}
+.rightContent button:hover{
+    background-color: white;
+    box-shadow: 0px 2px 2px  rgba(148, 147, 147, 0.437);
+
+}
+/* logo ends */
+
+
+
+
+
+/* section7  */
+/* first footer */
+
+.sectionContainer ul{
+    list-style-type: none;
+    width:250px;
+    margin: 0;
+    padding: 0;
+    padding:30px;
+    padding-left: 50px;
+    font-size: 11px;
+    line-height: 30px;
+    color: #616161;
+    
+}
+
+.section7{
+    display: flex;
+    width: 100%;  
+    justify-content: center;
+    background-color: #dfdddd9f;
+
+}
+.sectionContainer{
+    padding-top: 10px;
+    width:100%;
+    display: flex;
+    
+    justify-content: space-around;    
+}
+
+li.first{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* last footer */
+
+footer.main{
+    display: flex;
+    justify-content: center;
+    background-color:#dfdddd9f; 
+    color:#616161;
+    
+}
+.rightfooter{
+    width:50%;
+    padding-left: 140px;
+}
+.leftfooter{
+    width:50%;
+    
+}
+.leftfooter a{
+    margin-right: 20px;
+}
+.rightfooter a{
+    margin-left: 20px;
+    
+}
+.footercontent{
+    width:90%;
+    display: flex;
+    padding:10px;
+    
+
+}
+.footercontent a{
+    text-decoration: none;
+    color: #616161;
+    font-size: 11px;
+    
+}
